@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+	--primaryCollor: #1c6d71;
+	--accentCollor: #EDEEF4;
+	--textColor: #6b6f81;
+	--backgrondCollor: white;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style-type: none;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+.top-header,
+.bottom-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: .4rem 2rem;
+}
+.top-header {
+	background: var(--primaryCollor);
+	color: #fff;
+}
+.nav-icons ion-icon {
+	font-size: 1.3rem;
+	margin-left: 1rem;
+}
+.bottom-header {
+ 	padding: 0;
+}
+.brand {
+	display: flex;
+}
+.brand img {
+	margin-right: 1rem;
+}
+.brand h5 {
+	font-size: 4rem;
+}
+nav ul {
+	margin-left: 30rem;
+	display: flex;
+}
+nav li {
+	margin-left: 1rem;
+}
+
+
+
+.product-header{
+	background: var(--accentCollor);
+	padding: 3rem 0rem 7rem 0rem;
+	text-align: center;
+}
+
+.product-header .breadcrumb
+.product-header .breadcrumb a{
+	font-size: .8rem;
+	color:var(--textColor);
+}
+
+.product-header .breadcrumb span{
+	color: var(--primaryColor);
+}
+
+.product-header h1{
+	color: #444;
+	margin: .7rem 0rem;
+}
+
+.product-header h3{
+	color: var(--primaryColor);
+	margin: .8rem;
+}
+
+.product-header ion-icon{
+	color: var(--primaryColor);
+	font-size: 1.3rem;
+	display: inline-block;
+	margin: 0rem .5rem;
+}
+
+.product-body {
+	padding-bottom: 3rem;
+}
+
+.product-body .wrapper {
+	background: var(--backgrondCollor);
+	margin-right: 8rem;
+	margin-left: 8rem;
+	margin-top: -6rem;
+}
+
+.product-body-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 2rem;
+}
+
+.product-photo {
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 450px;
+
+}
+.product-details {
+	padding: 2rem 1rem;
+}
+
+.product-size small {
+	font-size: 1rem;
+	font-weight: 700;
+	color: #333;
+	display: inline-block;
+	margin-bottom: .6rem;
+	margin-top: 5rem;
+
+}
+.product-description h5 {
+	font-size: 40px
+
+}
+
+.btn btn-dark {
+	padding-top: 50px;
+}
+
+
+
